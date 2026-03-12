@@ -1,0 +1,62 @@
+# ─── ENVIRONMENT ─────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── DEPENDENCIES ────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── NEXT.JS ─────────────────────────────────────────────────────────────────
+.next/
+out/
+build/
+
+# ─── DATA — raw source files are large and have their own licenses ────────────
+# Commit only processed/clipped GeoJSON in data/processed/ and data/seed/
+data/raw/
+data/tmp/
+
+# Specific large files that should never be committed
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.zip
+*.tar.gz
+
+# But DO commit these processed files:
+!data/processed/**/*.geojson
+!data/seed/**/*.geojson
+!data/seed/**/*.sql
+
+# ─── OS / EDITOR ─────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── TYPESCRIPT ──────────────────────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── TESTING ─────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── MISC ────────────────────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
