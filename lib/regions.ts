@@ -96,10 +96,10 @@ export async function getRegionsByBbox(
       MAX(CASE WHEN rn.language_code = 'it' AND rn.is_primary THEN rn.name END) AS primary_name_it,
       MAX(CASE WHEN rn.language_code = 'en' AND rn.is_primary THEN rn.name END) AS primary_name_en,
       ST_AsGeoJSON(ST_Intersection(r.geometry, bbox.env))::text AS geojson
-    FROM regions r, bbox
+    FROM regions r
+    JOIN bbox ON r.geometry && bbox.env
     LEFT JOIN region_names rn ON rn.region_id = r.id
-    WHERE r.geometry && bbox.env
-      AND (r.valid_to IS NULL OR r.valid_to > NOW())
+    WHERE (r.valid_to IS NULL OR r.valid_to > NOW())
       ${hasLayers ? 'AND r.layer = ANY($5)' : ''}
     GROUP BY r.id
     ORDER BY r.area_km2 ASC NULLS LAST
