@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Territorio",
+    "map": "Mappa",
+    "about": "Progetto"
+  },
+  "home": {
+    "title": "Alto Tevere",
+    "subtitle": "Bacino idrografico dell'Alto Tevere",
+    "tagline": "Un territorio vivo, organizzato per confini ecologici",
+    "section_place": "Il Luogo",
+    "section_place_body": "Il bacino dell'Alto Tevere si estende per circa 4.200 km² tra Umbria e Toscana. Il Tevere nasce sul Monte Fumaiolo, in Romagna, e scorre verso sud attraverso paesaggi di foreste appenniniche, pascoli e borghi storici prima di raggiungere Perugia.",
+    "section_life": "La Comunità della Vita",
+    "section_life_body": "Questo territorio ospita foreste decidue appenniniche di faggio al di sopra dei 900 m, boschi di roverella nelle zone collinari, e una rete di aree protette — Monti Sibillini, Monte Subasio, Monte Cucco — che fungono da corridoi per orso marsicano, lupo e aquila reale.",
+    "section_emergency": "L'Emergenza Presente",
+    "section_emergency_label": "Emergenza idrica",
+    "section_emergency_body": "Il Lago Trasimeno — il quarto lago più grande d'Italia — ha registrato un livello -163 cm rispetto alla media storica (ottobre 2025). La siccità prolungata minaccia l'ecosistema lacustre e le comunità che dipendono dalle sue acque. Il movimento cittadino «Il lago al centro» chiede azioni coordinate tra Umbria e Toscana.",
+    "section_emergency_level": "Livello idrometrico: −163 cm",
+    "section_emergency_cta": "Leggi di più sul Lago Trasimeno",
+    "section_action": "Punti di Ingresso",
+    "section_action_map": "Esplora la mappa bioregionale",
+    "section_action_map_desc": "Naviga i confini ecologici, le aree protette e le comunità di vita del bacino",
+    "explore_map": "Apri la mappa",
+    "language_name": "Italiano"
+  },
+  "map": {
+    "title": "Mappa Bioregionale",
+    "layers": "Strati",
+    "layer_watershed": "Bacino idrografico",
+    "layer_ecoregion": "Ecoregione",
+    "layer_protected": "Area protetta",
+    "south_up": "Sud in alto",
+    "north_up": "Nord in alto",
+    "attribution": "Fonti dei dati",
+    "click_region": "Clicca su un'area per i dettagli",
+    "approximate": "Confine approssimativo",
+    "loading": "Caricamento…",
+    "crisis_badge": "Crisi idrica",
+    "close": "Chiudi"
+  },
+  "attribution": {
+    "seed_data": "Dati seme Bioregione",
+    "seed_license": "GPL-3.0",
+    "wwf": "WWF Terrestrial Ecoregions (TEOW)",
+    "wwf_license": "CC BY 4.0 non commerciale",
+    "hydrosheds": "HydroSHEDS — Pfafstetter Basins Level 5",
+    "hydrosheds_license": "CC BY 4.0",
+    "wdpa": "WDPA — World Database on Protected Areas",
+    "wdpa_license": "Licenza mista — vedi fonte",
+    "osm": "OpenStreetMap contributors",
+    "osm_license": "ODbL",
+    "carto": "© CARTO",
+    "carto_license": "CC BY 3.0"
+  }
+}

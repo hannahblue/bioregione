@@ -157,6 +157,6 @@ The first bioregion implemented is the upper Tiber watershed around Perugia, Umb
 
 ## License
 
-Code: MIT  
-Data: See individual dataset licenses above  
+Code: [GNU GPL v3](./LICENSE)
+Data: See individual dataset licenses above
 Design assets: CC BY 4.0

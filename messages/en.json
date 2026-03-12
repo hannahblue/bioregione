@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Territory",
+    "map": "Map",
+    "about": "About"
+  },
+  "home": {
+    "title": "Alto Tevere",
+    "subtitle": "Upper Tiber Watershed",
+    "tagline": "A living territory, organized by ecological boundaries",
+    "section_place": "The Place",
+    "section_place_body": "The Alto Tevere watershed spans approximately 4,200 km² across Umbria and Tuscany. The Tiber rises on Monte Fumaiolo in Romagna and flows south through Apennine forests, upland pastures, and ancient towns before reaching Perugia.",
+    "section_life": "The Community of Life",
+    "section_life_body": "This territory holds Apennine deciduous montane forests of beech above 900 m, turkey oak woodland in the hills, and a network of protected areas — Monti Sibillini, Monte Subasio, Monte Cucco — serving as corridors for Marsican brown bear, wolf, and golden eagle.",
+    "section_emergency": "The Present Emergency",
+    "section_emergency_label": "Water crisis",
+    "section_emergency_body": "Lake Trasimeno — Italy's fourth largest lake — recorded a water level of −163 cm below the historical average (October 2025). Prolonged drought threatens the lake ecosystem and the communities that depend on it. The citizen movement 'Il lago al centro' is calling for coordinated action across Umbria and Tuscany.",
+    "section_emergency_level": "Water level: −163 cm",
+    "section_emergency_cta": "Read more about Lake Trasimeno",
+    "section_action": "Entry Points",
+    "section_action_map": "Explore the bioregional map",
+    "section_action_map_desc": "Navigate ecological boundaries, protected areas, and communities of life in the watershed",
+    "explore_map": "Open the map",
+    "language_name": "English"
+  },
+  "map": {
+    "title": "Bioregional Map",
+    "layers": "Layers",
+    "layer_watershed": "Watershed",
+    "layer_ecoregion": "Ecoregion",
+    "layer_protected": "Protected area",
+    "south_up": "South up",
+    "north_up": "North up",
+    "attribution": "Data sources",
+    "click_region": "Click an area for details",
+    "approximate": "Approximate boundary",
+    "loading": "Loading…",
+    "crisis_badge": "Water crisis",
+    "close": "Close"
+  },
+  "attribution": {
+    "seed_data": "Bioregione seed data",
+    "seed_license": "GPL-3.0",
+    "wwf": "WWF Terrestrial Ecoregions (TEOW)",
+    "wwf_license": "CC BY 4.0 non-commercial",
+    "hydrosheds": "HydroSHEDS — Pfafstetter Basins Level 5",
+    "hydrosheds_license": "CC BY 4.0",
+    "wdpa": "WDPA — World Database on Protected Areas",
+    "wdpa_license": "Mixed license — see source",
+    "osm": "OpenStreetMap contributors",
+    "osm_license": "ODbL",
+    "carto": "© CARTO",
+    "carto_license": "CC BY 3.0"
+  }
+}
