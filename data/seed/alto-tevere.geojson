@@ -1,0 +1,598 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "description": "Alto Tevere pilot bioregion seed data",
+    "region": "Umbria, Italy",
+    "pilot": "Cenerente / Perugia",
+    "generated": "2026-03",
+    "note": "Approximate polygons based on published boundary descriptions. Replace with authoritative data after running data:import"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "alto-tevere-watershed",
+        "layer": "watershed",
+        "source_name": "HydroSHEDS (approximate — replace with authoritative data)",
+        "source_url": "https://www.hydrosheds.org",
+        "source_license": "CC BY 4.0",
+        "area_km2": 4200,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Bacino dell'Alto Tevere",
+            "notes": "Il bacino idrografico del Tevere nella sua sezione umbra."
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Upper Tiber Watershed",
+            "notes": "The upper basin of the Tiber River, encompassing most of Umbria."
+          },
+          {
+            "locale": "la",
+            "type": "historical",
+            "name": "Flumen Tiberis Superius",
+            "notes": "Latin name for the upper Tiber."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.08,
+                43.72
+              ],
+              [
+                12.22,
+                43.62
+              ],
+              [
+                12.38,
+                43.78
+              ],
+              [
+                12.58,
+                43.82
+              ],
+              [
+                12.82,
+                43.72
+              ],
+              [
+                12.98,
+                43.52
+              ],
+              [
+                13.12,
+                43.28
+              ],
+              [
+                13.22,
+                43.02
+              ],
+              [
+                13.12,
+                42.78
+              ],
+              [
+                12.92,
+                42.58
+              ],
+              [
+                12.62,
+                42.48
+              ],
+              [
+                12.32,
+                42.45
+              ],
+              [
+                12.08,
+                42.58
+              ],
+              [
+                11.88,
+                42.78
+              ],
+              [
+                11.75,
+                43.02
+              ],
+              [
+                11.78,
+                43.28
+              ],
+              [
+                11.92,
+                43.52
+              ],
+              [
+                12.08,
+                43.72
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "apennine-deciduous-montane-forests",
+        "layer": "ecoregion",
+        "source_name": "WWF Terrestrial Ecoregions of the World (approximate)",
+        "source_url": "https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world",
+        "source_license": "© WWF — non-commercial use with attribution",
+        "source_id": "PA0401",
+        "area_km2": 35800,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Foreste Montane Decidue Appenniniche"
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Apennine Deciduous Montane Forests",
+            "notes": "WWF Ecoregion PA0401. Beech above 900m, Turkey oak below. Mediterranean Basin biodiversity hotspot."
+          },
+          {
+            "locale": "en",
+            "type": "scientific",
+            "name": "Palearctic Temperate Broadleaf & Mixed Forests (PA0401)"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.52,
+                43.82
+              ],
+              [
+                12.78,
+                43.72
+              ],
+              [
+                13.08,
+                43.48
+              ],
+              [
+                13.22,
+                43.18
+              ],
+              [
+                13.18,
+                42.85
+              ],
+              [
+                12.95,
+                42.62
+              ],
+              [
+                12.65,
+                42.52
+              ],
+              [
+                12.38,
+                42.65
+              ],
+              [
+                12.25,
+                42.95
+              ],
+              [
+                12.28,
+                43.28
+              ],
+              [
+                12.52,
+                43.82
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "italian-sclerophyllous-forests",
+        "layer": "ecoregion",
+        "source_name": "WWF Terrestrial Ecoregions of the World (approximate)",
+        "source_url": "https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world",
+        "source_license": "© WWF — non-commercial use with attribution",
+        "source_id": "PA1213",
+        "area_km2": 52400,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Foreste Sclerofille e Semidecidue dell'Italia Centrale"
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Italian Sclerophyllous and Semi-Deciduous Forests",
+            "notes": "WWF Ecoregion PA1213. Holm oak, olive groves, macchia. The valley landscape of Cenerente."
+          },
+          {
+            "locale": "en",
+            "type": "scientific",
+            "name": "Palearctic Mediterranean Forests, Woodlands & Scrub (PA1213)"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                11.52,
+                43.58
+              ],
+              [
+                11.88,
+                43.75
+              ],
+              [
+                12.22,
+                43.82
+              ],
+              [
+                12.52,
+                43.82
+              ],
+              [
+                12.28,
+                43.28
+              ],
+              [
+                12.25,
+                42.95
+              ],
+              [
+                12.08,
+                42.75
+              ],
+              [
+                11.72,
+                42.65
+              ],
+              [
+                11.45,
+                42.88
+              ],
+              [
+                11.42,
+                43.18
+              ],
+              [
+                11.52,
+                43.58
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "lago-trasimeno",
+        "layer": "protected_area",
+        "source_name": "WDPA / Rete Natura 2000 (approximate)",
+        "source_url": "https://www.protectedplanet.net",
+        "source_license": "UNEP-WCMC and IUCN — see protectedplanet.net/en/legal",
+        "source_id": "IT5210018",
+        "area_km2": 128,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Lago Trasimeno",
+            "notes": "ZSC IT5210018 e ZPS IT5210070. CRISI IDRICA: livello a -163cm (ottobre 2025)."
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Lake Trasimeno",
+            "notes": "Natura 2000. ACTIVE CRISIS: -163cm Oct 2025. Citizen movement 'Il lago al centro' mobilizing."
+          },
+          {
+            "locale": "la",
+            "type": "historical",
+            "name": "Lacus Trasumenus",
+            "notes": "Site of the Battle of Lake Trasimene, 217 BCE — Hannibal's ambush of the Roman army."
+          }
+        ],
+        "attributes": [
+          {
+            "key": "water_level_cm",
+            "value": "-163",
+            "unit": "cm",
+            "recorded_at": "2025-10-01"
+          },
+          {
+            "key": "crisis_status",
+            "value": "active"
+          },
+          {
+            "key": "iucn_category",
+            "value": "IV"
+          },
+          {
+            "key": "natura2000_codes",
+            "value": "IT5210018, IT5210070"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                11.92,
+                43.18
+              ],
+              [
+                12.0,
+                43.24
+              ],
+              [
+                12.1,
+                43.25
+              ],
+              [
+                12.2,
+                43.19
+              ],
+              [
+                12.23,
+                43.11
+              ],
+              [
+                12.16,
+                43.05
+              ],
+              [
+                12.04,
+                43.04
+              ],
+              [
+                11.93,
+                43.09
+              ],
+              [
+                11.9,
+                43.14
+              ],
+              [
+                11.92,
+                43.18
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "monte-subasio",
+        "layer": "protected_area",
+        "source_name": "WDPA / Natura 2000 (approximate)",
+        "source_url": "https://www.protectedplanet.net",
+        "source_license": "UNEP-WCMC and IUCN",
+        "source_id": "IT5210056",
+        "area_km2": 70,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Monte Subasio",
+            "notes": "Parco Regionale. Paesaggio francescano sopra Assisi."
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Mount Subasio",
+            "notes": "Regional park above Assisi. The Franciscan landscape."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.57,
+                43.04
+              ],
+              [
+                12.65,
+                43.09
+              ],
+              [
+                12.73,
+                43.13
+              ],
+              [
+                12.75,
+                43.07
+              ],
+              [
+                12.71,
+                42.99
+              ],
+              [
+                12.63,
+                42.96
+              ],
+              [
+                12.56,
+                43.0
+              ],
+              [
+                12.57,
+                43.04
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "monte-cucco",
+        "layer": "protected_area",
+        "source_name": "WDPA / Natura 2000 (approximate)",
+        "source_url": "https://www.protectedplanet.net",
+        "source_license": "UNEP-WCMC and IUCN",
+        "source_id": "IT5210004",
+        "area_km2": 105,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Monte Cucco"
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Monte Cucco",
+            "notes": "Regional park with one of Italy's most extensive karst cave systems. Springs feed upper Tiber tributaries."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.7,
+                43.35
+              ],
+              [
+                12.78,
+                43.4
+              ],
+              [
+                12.87,
+                43.36
+              ],
+              [
+                12.88,
+                43.28
+              ],
+              [
+                12.82,
+                43.2
+              ],
+              [
+                12.7,
+                43.18
+              ],
+              [
+                12.63,
+                43.24
+              ],
+              [
+                12.65,
+                43.31
+              ],
+              [
+                12.7,
+                43.35
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "slug": "monti-sibillini",
+        "layer": "protected_area",
+        "source_name": "WDPA / Parchi Nazionali Italiani (approximate)",
+        "source_url": "https://www.protectedplanet.net",
+        "source_license": "UNEP-WCMC and IUCN",
+        "area_km2": 704,
+        "names": [
+          {
+            "locale": "it",
+            "type": "primary",
+            "name": "Parco Nazionale dei Monti Sibillini",
+            "notes": "Corridoio faunistico per l'orso marsicano. Lupi, aquile reali, camoscio appenninico."
+          },
+          {
+            "locale": "en",
+            "type": "primary",
+            "name": "Sibillini Mountains National Park",
+            "notes": "Wildlife corridor for Marsican brown bear. Wolves, golden eagles, Apennine chamois."
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                12.98,
+                42.96
+              ],
+              [
+                13.14,
+                42.99
+              ],
+              [
+                13.23,
+                42.89
+              ],
+              [
+                13.19,
+                42.73
+              ],
+              [
+                13.05,
+                42.66
+              ],
+              [
+                12.9,
+                42.7
+              ],
+              [
+                12.86,
+                42.83
+              ],
+              [
+                12.93,
+                42.93
+              ],
+              [
+                12.98,
+                42.96
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
