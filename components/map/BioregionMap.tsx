@@ -81,6 +81,7 @@ export default function BioregionMap() {
       let data: FeatureCollection
       try {
         const res = await fetch(url)
+        if (!res.ok) return
         data = await res.json()
       } catch {
         return
@@ -222,8 +223,11 @@ export default function BioregionMap() {
       mapRef.current = map
 
       map.on('load', async () => {
-        await loadRegions(map)
-        setLoaded(true)
+        try {
+          await loadRegions(map)
+        } finally {
+          setLoaded(true)
+        }
 
         // Hover state
         let hoveredId: string | number | null = null
