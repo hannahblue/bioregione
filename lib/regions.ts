@@ -101,7 +101,7 @@ export async function getRegionsByBbox(
     LEFT JOIN region_names rn ON rn.region_id = r.id
     WHERE (r.valid_to IS NULL OR r.valid_to > NOW())
       ${hasLayers ? 'AND r.layer = ANY($5)' : ''}
-    GROUP BY r.id
+    GROUP BY r.id, bbox.env
     ORDER BY r.area_km2 ASC NULLS LAST
   `
 
